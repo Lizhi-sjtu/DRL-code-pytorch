@@ -14,3 +14,4 @@ Here env_index=0 represent 'CartPole-v0'; env_index=1 represent 'CartPole-v0'
 You can use the tensorboard to visualize the training curves.<br />
 Our training curvers in the two environments are stored in the 'runs', and the data of rewards are stored in the 'data_train'
 
+![REINFORCE](https://user-images.githubusercontent.com/70121187/159685605-bc6be2d9-66b6-4a44-922a-81aa0e8ba1f9.png)
