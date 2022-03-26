@@ -15,3 +15,7 @@ The rewards data are saved as numpy in the file 'data_train'.<br />
 The training curves are shown below,  which are smoothed by averaging over a window of 10 steps.<br />
 The solid line and the shadow respectively represent the average and standard deviation over three different random seeds. (seed=0, 10, 100)<br />
 ![image](https://github.com/Lizhi-sjtu/DRL-code-pytorch/blob/main/4.PPO-discrete/training%20results.png)
+
+# Reference
+[1] Schulman J, Wolski F, Dhariwal P, et al. Proximal policy optimization algorithms[J]. arXiv preprint arXiv:1707.06347, 2017.<br />
+[2] Schulman J, Moritz P, Levine S, et al. High-dimensional continuous control using generalized advantage estimation[J]. arXiv preprint arXiv:1506.02438, 2015.<br />
