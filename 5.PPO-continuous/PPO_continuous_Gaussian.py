@@ -123,7 +123,7 @@ class PPO():
     def update(self, memory):
         s, a, a_logprob, r, s_, dw, done = memory.numpy_to_tensor()  # Get training data
         """
-            Calculate the advantage using GAE
+            Calculate the advantage using GAE(General Advantage Estimation)
             'dw=True' menas dead or win, there is no next state s'
             'done=True' represents the terminal of an episode(dead or win or reaching the max_episode_steps). When calculating the adv, if done=True, gae=0
         """
