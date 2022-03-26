@@ -21,3 +21,8 @@ The training curves are shown below,  which are smoothed by averaging over a win
 The solid line and the shadow respectively represent the average and standard deviation over three different random seeds. (seed=0, 10, 100)<br />
 
 ![image](https://github.com/Lizhi-sjtu/DRL-code-pytorch/blob/main/5.PPO-continuous/Beta_and_Gaussian.png)
+
+# Reference
+[1] Schulman J, Wolski F, Dhariwal P, et al. Proximal policy optimization algorithms[J]. arXiv preprint arXiv:1707.06347, 2017.<br />
+[2] Schulman J, Moritz P, Levine S, et al. High-dimensional continuous control using generalized advantage estimation[J]. arXiv preprint arXiv:1506.02438, 2015.<br />
+[3] Chou P W, Maturana D, Scherer S. Improving stochastic policy gradients in continuous control with deep reinforcement learning using the beta distribution[C]//International conference on machine learning. PMLR, 2017: 834-843.<br />
