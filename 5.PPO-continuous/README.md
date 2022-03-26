@@ -19,3 +19,5 @@ You can use the tensorboard to visualize the training curves, which are saved in
 The rewards data are saved as numpy in the file 'data_train'.<br />
 The training curves are shown below,  which are smoothed by averaging over a window of 10 steps.<br />
 The solid line and the shadow respectively represent the average and standard deviation over three different random seeds. (seed=0, 10, 100)<br />
+
+![image](https://github.com/Lizhi-sjtu/DRL-code-pytorch/blob/main/5.PPO-continuous/Beta_and_Gaussian.png)
