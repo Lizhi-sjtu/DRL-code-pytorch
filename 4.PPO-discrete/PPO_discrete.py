@@ -73,14 +73,14 @@ class PPO():
     def __init__(self, state_dim, action_dim, batch_size):
         self.state_dim = state_dim
         self.action_dim = action_dim
+        self.batch_size = batch_size
+        self.mini_batch_size = 64
         self.hidden_width = 64  # The number of neurons in hidden layers of the neural network
         self.eps_clip = 0.2
         self.K_epochs = 10
         self.GAMMA = 0.99  # discount factor
         self.LAMDA = 0.95  # GAE parameter
         self.lr = 3e-4  # learning rate
-        self.batch_size = batch_size
-        self.mini_batch_size = 64
 
         self.actor = Actor(state_dim, action_dim, self.hidden_width)
         self.actor_optimizer = torch.optim.Adam(self.actor.parameters(), lr=self.lr)
