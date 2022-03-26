@@ -228,6 +228,7 @@ if __name__ == '__main__':
                 evaluate_rewards.append(evaluate_reward)
                 print("evaluate_num:{} \t evaluate_reward:{} \t".format(evaluate_num, evaluate_reward))
                 writer.add_scalar('step_rewards_{}'.format(env_name[env_index]), evaluate_reward, global_step=total_steps)
+                # Save the rewards
                 if evaluate_num % 10 == 0:
                     np.save('./data_train/PPO_discrete_env_{}_number_{}_seed_{}.npy'.format(env_name[env_index], number, seed), np.array(evaluate_rewards))
 
