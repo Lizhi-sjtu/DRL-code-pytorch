@@ -77,7 +77,7 @@ class DQN(object):
         self.if_doube = if_double
         self.if_dueling = if_dueling
         self.hidden_width = 200  # The number of neurons in hidden layers of the neural network
-        self.batch_size = 512
+        self.batch_size = 512  # batch size
         self.lr = 1e-4  # learning rate
         self.GAMMA = 0.99  # discount factor
         self.epsilon = 0.2  # epsilon-greedy
