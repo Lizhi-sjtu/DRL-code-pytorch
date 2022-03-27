@@ -1,7 +1,3 @@
-"""car_new controller."""
-
-# You may need to import some classes of the controller module. Ex:
-#  from controller import Robot, Motor, DistanceSensor
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -9,7 +5,7 @@ import numpy as np
 from torch.utils.data.sampler import BatchSampler, SubsetRandomSampler
 from torch.utils.tensorboard import SummaryWriter
 import gym
-from torch.distributions import Beta, Normal
+from torch.distributions import Normal
 
 
 class Actor_Gaussian_Parameter(nn.Module):
