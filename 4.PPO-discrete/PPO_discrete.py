@@ -102,7 +102,6 @@ class PPO():
             return a, a_prob
 
     def update(self, memory):
-        # 获取数据
         s, a, a_prob, r, s_, dw, done = memory.numpy_to_tensor()
         """
             Calculate the advantage using GAE(General Advantage Estimation)
