@@ -4,7 +4,7 @@ There are two alternative probability distributions for actions: Gaussain distri
 The experimental results show that the Beta distribution can achieve better performance than the Gaussian distribution in most cases. <br />
 
 ## How to use my code?
-You can dircetly run PPO_discrete.py in your own IDE.<br />
+You can dircetly run 'PPO_continuous_Gaussian.py' and 'PPO_continuous_Beta.py' in your own IDE.<br />
 
 ### Test environments
 You can set the 'env_index' in the codes to change the environments. Here, we test our code in 5 environments.<br />
