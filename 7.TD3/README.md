@@ -1,4 +1,4 @@
-# PPO-continuous
+# TD3
 This is a concise Pytorch implementation of TD3(Twin Delayed DDPG) on continuous action space.<br />
 
 
