@@ -13,7 +13,7 @@ Trick 9—Adam Optimizer Epsilon Parameter.<br />
 Trick10—Tanh Activation Function.<br />
 
 ## Test environments
-You can set the 'env_index' in the codes to change the environments. Here, we test our code in 5 environments.<br />
+You can set the 'env_index' in the codes to change the environments. Here, we test our code in 4 environments.<br />
 env_index=0 represent 'BipedalWalker-v3'<br />
 env_index=1 represent 'HalfCheetah-v2'<br />
 env_index=2 represent 'Hopper-v2'<br />
