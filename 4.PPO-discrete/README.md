@@ -19,4 +19,7 @@ env_index=1 represent 'LunarLander-v2'<br />
 
 
 ## Training result
-![image] 
+![image](https://github.com/Lizhi-sjtu/DRL-code-pytorch/blob/main/4.PPO-discrete/training_result.png)
+
+## Tutorial
+If you can read Chinese, you can get more information from this blog.https://zhuanlan.zhihu.com/p/512327050
