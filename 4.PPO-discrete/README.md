@@ -17,3 +17,6 @@ You can set the 'env_index' in the codes to change the environments. Here, we te
 env_index=0 represent 'CartPole-v1'<br />
 env_index=1 represent 'LunarLander-v2'<br />
 
+
+## Training result
+![image] 
