@@ -18,3 +18,8 @@ env_index=0 represent 'BipedalWalker-v3'<br />
 env_index=1 represent 'HalfCheetah-v2'<br />
 env_index=2 represent 'Hopper-v2'<br />
 env_index=3 represent 'Walker2d-v2'<br />
+
+## Trianning result
+
+![image](https://github.com/Lizhi-sjtu/DRL-code-pytorch/blob/main/5.PPO-continuous/training%20result.png)
+
