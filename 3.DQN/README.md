@@ -8,7 +8,7 @@ If 'if_double=True' and 'if_dueling=True', then we will use the Dueling Double D
 If 'if_double=True' and 'if_dueling=False', then we will use the Double DQN(DDQN).<br />
 If 'if_double=False' and 'if_dueling=False', then we will use the original DQN.<br />
 
-### Test environments
+### Trainning environments
 You can set the 'env_index' in the code to change the environments.<br />
 env_index=0 represent 'CartPole-v1'<br />
 env_index=1 represent 'LunarLander-v2'<br />
