@@ -15,8 +15,8 @@ Trick10—Tanh Activation Function.<br />
 ## How to use my code?
 You can dircetly run 'PPO_discrete_main.py' in your own IDE.<br />
 
-## Test environments
-You can set the 'env_index' in the codes to change the environments. Here, we test our code in 2 environments.<br />
+## Trainning environments
+You can set the 'env_index' in the codes to change the environments. Here, we train our code in 2 environments.<br />
 env_index=0 represent 'CartPole-v1'<br />
 env_index=1 represent 'LunarLander-v2'<br />
 
