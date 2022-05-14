@@ -5,8 +5,8 @@ This is a concise Pytorch implementation of TD3(Twin Delayed DDPG) on continuous
 ## How to use my code?
 You can dircetly run 'TD3.py' in your own IDE.<br />
 
-### Test environments
-You can set the 'env_index' in the codes to change the environments. Here, we test our code in 5 environments.<br />
+### Trainning environments
+You can set the 'env_index' in the codes to change the environments. Here, we train our code in 5 environments.<br />
 env_index=0 represent 'Pendulum-v1'<br />
 env_index=1 represent 'BipedalWalker-v3'<br />
 env_index=2 represent 'HalfCheetah-v2'<br />
