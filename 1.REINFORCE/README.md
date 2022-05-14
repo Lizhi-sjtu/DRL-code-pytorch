@@ -6,7 +6,7 @@ REINFORCE_baseline.py is a implementation of REINFORCE with the baseline.<br />
 ## How to use my code?
 You can dircetly run REINFORCE.py and REINFORCE_baseline.py in your own IDE.<br />
 
-### Test environments
+### Trainning environments
 You can set the 'env_index' in the codes to change the environments.<br />
 env_index=0 represent 'CartPole-v0'<br />
 env_index=1 represent 'CartPole-v1'<br />
