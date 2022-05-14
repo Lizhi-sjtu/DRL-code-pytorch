@@ -4,7 +4,7 @@ This is a concise Pytorch implementation of Advantage Actor-Critic(A2C).<br />
 ## How to use my code?
 You can dircetly run A2C.py in your own IDE.<br />
 
-### Test environments
+### Trainning environments
 You can set the 'env_index' in the codes to change the environments.<br />
 env_index=0 represent 'CartPole-v0'<br />
 env_index=1 represent 'CartPole-v1'<br />
