@@ -23,7 +23,7 @@ env_index=2 represent 'Hopper-v2'<br />
 env_index=3 represent 'Walker2d-v2'<br />
 
 ## Trainning result
-![image]()
+![image](https://github.com/Lizhi-sjtu/DRL-code-pytorch/blob/main/5.PPO-continuous/training_result.png)
 
 ## Tutorial
 If you can read Chinese, you can get more information from this blog.https://zhuanlan.zhihu.com/p/512327050
