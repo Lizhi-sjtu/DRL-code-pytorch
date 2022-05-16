@@ -18,7 +18,7 @@ class Actor(nn.Module):
         self.fc1 = nn.Linear(args.state_dim, args.hidden_width)
         self.fc2 = nn.Linear(args.hidden_width, args.hidden_width)
         self.fc3 = nn.Linear(args.hidden_width, args.action_dim)
-        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10 :use tanh
+        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10: use tanh
 
         if args.use_orthogonal_init:
             print("------use_orthogonal_init------")
@@ -39,7 +39,7 @@ class Critic(nn.Module):
         self.fc1 = nn.Linear(args.state_dim, args.hidden_width)
         self.fc2 = nn.Linear(args.hidden_width, args.hidden_width)
         self.fc3 = nn.Linear(args.hidden_width, 1)
-        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10 :use tanh
+        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10: use tanh
 
         if args.use_orthogonal_init:
             print("------use_orthogonal_init------")
@@ -137,7 +137,6 @@ class PPO_discrete:
 
                 v_s = self.critic(s[index])
                 critic_loss = F.mse_loss(v_target[index], v_s)
-
                 # Update critic
                 self.optimizer_critic.zero_grad()
                 critic_loss.backward()
