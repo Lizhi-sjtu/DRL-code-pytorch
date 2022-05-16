@@ -19,7 +19,7 @@ class RunningMeanStd:
             old_mean = self.mean.copy()
             self.mean = old_mean + (x - old_mean) / self.n
             self.S = self.S + (x - old_mean) * (x - self.mean)
-            self.std = np.sqrt(self.S / (self.n - 1))
+            self.std = np.sqrt(self.S / self.n)
 
 
 class Normalization:
