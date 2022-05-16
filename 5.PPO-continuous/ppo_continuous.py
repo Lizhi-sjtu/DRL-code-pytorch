@@ -18,7 +18,7 @@ class Actor_Beta(nn.Module):
         self.fc2 = nn.Linear(args.hidden_width, args.hidden_width)
         self.alpha_layer = nn.Linear(args.hidden_width, args.action_dim)
         self.beta_layer = nn.Linear(args.hidden_width, args.action_dim)
-        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10 :use tanh
+        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10: use tanh
 
         if args.use_orthogonal_init:
             print("------use_orthogonal_init------")
@@ -54,7 +54,7 @@ class Actor_Gaussian(nn.Module):
         self.fc2 = nn.Linear(args.hidden_width, args.hidden_width)
         self.mean_layer = nn.Linear(args.hidden_width, args.action_dim)
         self.log_std = nn.Parameter(torch.zeros(1, args.action_dim))  # We use 'nn.Paremeter' to train log_std automatically
-        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10 :use tanh
+        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10: use tanh
 
         if args.use_orthogonal_init:
             print("------use_orthogonal_init------")
@@ -82,7 +82,7 @@ class Critic(nn.Module):
         self.fc1 = nn.Linear(args.state_dim, args.hidden_width)
         self.fc2 = nn.Linear(args.hidden_width, args.hidden_width)
         self.fc3 = nn.Linear(args.hidden_width, 1)
-        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10 :use tanh
+        self.activate_func = [nn.ReLU(), nn.Tanh()][args.use_tanh]  # Trick10: use tanh
 
         if args.use_orthogonal_init:
             print("------use_orthogonal_init------")
