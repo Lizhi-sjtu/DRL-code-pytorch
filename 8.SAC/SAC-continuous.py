@@ -238,7 +238,6 @@ if __name__ == '__main__':
 
     max_train_steps = 3e6  # Maximum number of training steps
     random_steps = 25e3  # Take the random actions in the beginning for the better exploration
-    update_freq = 50  # Take 50 steps,then update the networks 50 times
     evaluate_freq = 5e3  # Evaluate the policy every 'evaluate_freq' steps
     evaluate_num = 0  # Record the number of evaluations
     evaluate_rewards = []  # Record the rewards during the evaluating
@@ -266,7 +265,6 @@ if __name__ == '__main__':
             replay_buffer.store(s, a, r, s_, dw)  # Store the transition
             s = s_
 
-            # Take 50 steps,then update the networks 50 times
             if total_steps >= random_steps:
                 agent.learn(replay_buffer)
 
