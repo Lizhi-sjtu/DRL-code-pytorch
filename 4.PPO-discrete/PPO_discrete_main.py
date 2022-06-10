@@ -118,7 +118,6 @@ if __name__ == '__main__':
     parser.add_argument("--max_train_steps", type=int, default=int(2e5), help=" Maximum number of training steps")
     parser.add_argument("--evaluate_freq", type=float, default=5e3, help="Evaluate the policy every 'evaluate_freq' steps")
     parser.add_argument("--save_freq", type=int, default=20, help="Save frequency")
-    parser.add_argument("--policy_dist", type=str, default="Gaussian", help="Beta or Gaussian")
     parser.add_argument("--batch_size", type=int, default=2048, help="Batch size")
     parser.add_argument("--mini_batch_size", type=int, default=64, help="Minibatch size")
     parser.add_argument("--hidden_width", type=int, default=64, help="The number of neurons in hidden layers of the neural network")
