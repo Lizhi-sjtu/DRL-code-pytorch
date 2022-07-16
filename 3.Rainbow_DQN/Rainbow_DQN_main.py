@@ -156,6 +156,5 @@ if __name__ == '__main__':
 
     env_names = ['CartPole-v1', 'LunarLander-v2']
     env_index = 1
-    for seed in [0, 10, 100]:
-        runner = Runner(args=args, env_name=env_names[env_index], number=1, seed=seed)
-        runner.run()
+    runner = Runner(args=args, env_name=env_names[env_index], number=1, seed=0)
+    runner.run()
