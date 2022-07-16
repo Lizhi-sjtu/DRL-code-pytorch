@@ -1,5 +1,5 @@
 # DRL-code-pytorch
-Concise pytorch implementations of DRL algorithms, including REINFORCE, A2C, DQN, PPO(discrete and continuous), DDPG, TD3, SAC.
+Concise pytorch implementations of DRL algorithms, including REINFORCE, A2C, Rainbow DQN, PPO(discrete and continuous), DDPG, TD3, SAC.
 
 
 # Dependencies
