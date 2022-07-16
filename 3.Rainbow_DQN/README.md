@@ -2,7 +2,7 @@
 This is a concise Pytorch implementation of Rainbow DQN, including Double Q-learning, Dueling network, Noisy network, PER and n-steps Q-learning.<br />
 
 ## How to use my code?
-You can dircetly run DQN_DDQN_D3QN.py in your own IDE.<br />
+You can dircetly run Rainbow_DQN_main.py in your own IDE.<br />
 
 ### Trainning environments
 You can set the 'env_index' in the code to change the environments.<br />
