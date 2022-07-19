@@ -19,6 +19,9 @@ class DQN(object):
         self.use_double = args.use_double
         self.use_dueling = args.use_dueling
         self.use_per = args.use_per
+        self.use_n_steps=args.use_n_steps
+        if self.use_n_steps:
+            self.gamma = self.gamma ** args.n_steps
 
         if self.use_dueling:  # Whether to use the 'dueling network'
             self.net = Dueling_Net(args)
