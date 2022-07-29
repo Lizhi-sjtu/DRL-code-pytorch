@@ -1,5 +1,5 @@
 # PPO-discrete + RNN
-This is a concise Pytorch implementation of PPO+RNN(GRU/LSTM) on discrete action space with 10 tricks.<br />
+This is a concise Pytorch implementation of PPO+RNN(GRU/LSTM) on discrete action space.<br />
 
 
 ## How to use my code?
