@@ -74,7 +74,7 @@ class Runner:
             if self.args.use_state_norm:
                 s = self.state_norm(s)
             a, a_logprob = self.agent.choose_action(s, evaluate=False)
-            v = self.agent.get_value(s)  # Get the state values (V(s)) of N agents
+            v = self.agent.get_value(s)
             s_, r, done, _ = self.env.step(a)
             episode_reward += r
 
