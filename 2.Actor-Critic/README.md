@@ -1,4 +1,4 @@
-# REINFORCE
+# Actor-Critic(A2C)
 This is a concise Pytorch implementation of Advantage Actor-Critic(A2C).<br />
 
 ## How to use my code?
